@@ -570,6 +570,11 @@ h3.my-profession {
   border-radius: 10px;
   overflow: hidden;
   cursor: pointer;
+  transition: all 300ms ease;
+}
+
+.portfolio .portfolio-item-inner:hover {
+  transform: scale(1.05);
 }
 
 .portfolio .portfolio-item-inner .portfolio-img img {
